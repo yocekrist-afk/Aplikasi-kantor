@@ -1,0 +1,39 @@
+{
+  "rules": [
+    {
+      "collection": "master_data",
+      "permissions": {
+        "read": "true",
+        "write": "true"
+      }
+    },
+    {
+      "collection": "events",
+      "permissions": {
+        "read": "true",
+        "write": "true"
+      }
+    },
+    {
+      "collection": "peserta",
+      "permissions": {
+        "read": "true",
+        "write": "true"
+      }
+    },
+    {
+      "collection": "soal",
+      "permissions": {
+        "read": "true",
+        "write": "true"
+      }
+    },
+    {
+      "collection": "faq",
+      "permissions": {
+        "read": "true",
+        "write": "true"
+      }
+    }
+  ]
+}

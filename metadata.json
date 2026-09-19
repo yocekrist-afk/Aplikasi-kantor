@@ -1,0 +1,6 @@
+{
+  "name": "Dashboard Pelaporan Hasil Psikotes IST",
+  "description": "Aplikasi dashboard pelaporan hasil psikotes IST (Intelligenz Struktur Test) dengan fitur upload data Excel/CSV, skoring otomatis 9 subtes, analisis peminatan IPA/IPS, matriks program studi, dan generator laporan PDF 2 halaman standar psikologi profesional.",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

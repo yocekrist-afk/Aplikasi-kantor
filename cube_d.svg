@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200">
+    <!-- Faces backgrounds -->
+    <polygon points="30,70 110,70 110,150 30,150" fill="#ffffff" />
+    <polygon points="30,70 80,40 160,40 110,70" fill="#ffffff" />
+    <polygon points="110,70 160,40 160,120 110,150" fill="#ffffff" />
+    <polygon points="110,70 30,150 110,150" fill="#4A86E8" />
+            <line x1="110" y1="70" x2="30" y2="150" stroke="#000000" stroke-width="1.5" /><circle cx="75" cy="47" r="4" fill="#4A86E8" stroke="#000000" stroke-width="1" /><line x1="110" y1="70" x2="160" y2="120" stroke="#000000" stroke-width="1.5" />
+            <line x1="160" y1="40" x2="110" y2="150" stroke="#000000" stroke-width="1.5" />
+    <!-- Cube Outlines -->
+    <polygon points="30,70 110,70 110,150 30,150" fill="none" stroke="#000000" stroke-width="1.5" stroke-linejoin="round"/>
+    <polygon points="30,70 80,40 160,40 110,70" fill="none" stroke="#000000" stroke-width="1.5" stroke-linejoin="round"/>
+    <polygon points="110,70 160,40 160,120 110,150" fill="none" stroke="#000000" stroke-width="1.5" stroke-linejoin="round"/>
+  </svg>

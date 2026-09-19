@@ -1,0 +1,1 @@
+- Test Engine / Participant View: MUST use pagination (10 questions per page/view). Save answers locally to state/RAM, then perform a single Batch Write to Firebase ONLY when the user clicks 'Next' or submits. Do NOT write to Firebase on every individual radio button click to prevent quota exhaustion and throttling under heavy concurrent load (e.g. 1000+ users).

@@ -1,0 +1,96 @@
+@import "tailwindcss";
+
+.ist-a4-page {
+  width: 210mm;
+  min-width: 210mm;
+  max-width: 210mm;
+  height: 297mm;
+  min-height: 297mm;
+  max-height: 297mm;
+  box-sizing: border-box;
+}
+
+@media print {
+  body * {
+    visibility: hidden;
+  }
+
+  #ist-report-page-1,
+  #ist-report-page-1 *,
+  #ist-report-page-2,
+  #ist-report-page-2 * {
+    visibility: visible;
+  }
+
+  #ist-report-page-1,
+  #ist-report-page-2 {
+    position: relative !important;
+    left: 0 !important;
+    top: 0 !important;
+    margin: 0 auto !important;
+    padding: 10mm 12mm !important;
+    width: 210mm !important;
+    height: 297mm !important;
+    min-height: 297mm !important;
+    max-height: 297mm !important;
+    box-shadow: none !important;
+    border: none !important;
+    box-sizing: border-box !important;
+    background: white !important;
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+
+  #ist-report-page-1 {
+    page-break-after: always !important;
+    break-after: page !important;
+  }
+
+  #ist-report-page-2 {
+    page-break-after: avoid !important;
+    break-after: avoid !important;
+  }
+
+  @page {
+    size: A4 portrait;
+    margin: 0;
+  }
+}
+
+/* Custom visible horizontal scrollbar for wide tables */
+.custom-horizontal-scrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: #64748b #f1f5f9;
+  overflow-y: hidden !important;
+}
+
+.custom-horizontal-scrollbar::-webkit-scrollbar {
+  height: 12px;
+}
+
+/* Strictly eliminate any vertical scrollbar inside horizontal tables */
+.custom-horizontal-scrollbar::-webkit-scrollbar:vertical {
+  width: 0px !important;
+  height: 0px !important;
+  display: none !important;
+}
+
+.custom-horizontal-scrollbar::-webkit-scrollbar-track {
+  background: #f1f5f9;
+  border-radius: 6px;
+}
+
+.custom-horizontal-scrollbar::-webkit-scrollbar-thumb {
+  background-color: #64748b;
+  border-radius: 6px;
+  border: 2px solid #f1f5f9;
+}
+
+.custom-horizontal-scrollbar::-webkit-scrollbar-thumb:hover {
+  background-color: #8BC34A;
+}
+
+.custom-horizontal-scrollbar::-webkit-scrollbar-corner {
+  display: none !important;
+  background: transparent !important;
+}
